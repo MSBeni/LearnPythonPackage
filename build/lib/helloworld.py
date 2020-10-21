@@ -1,4 +1,4 @@
-def sayhello(name=None):
+def sayhello(name):
     if name is None:
         return "Hello Lovely World ...!!!"
     else:
