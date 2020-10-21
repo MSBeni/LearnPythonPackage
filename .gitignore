@@ -7,3 +7,5 @@ checkpoint
 *.pbtxt
 *.pkl
 *checkpoint*
+*.pypirc
+.pypirc

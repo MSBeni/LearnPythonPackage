@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: helloworld
+Name: helloNoushi
 Version: 0.0.1
 Summary: say hello
-Home-page: UNKNOWN
+Home-page: https://github.com/MSBeni/LearnPythonPackage
 Author: MSBeni
 Author-email: andrei.sokurov.bitco@gmail.com
 License: UNKNOWN
@@ -12,12 +12,12 @@ Description: # Hello World
         ## Installation 
         Run the following to install:
         ```python
-        pip install helloworld
+        pip install helloNoushi
         ```
         
         ## Usage
         ```python
-        from helloworld import sayhello
+        from helloNoushi import sayhello
         ``` 
         # Generate "Hello Lovely World ...!!!"
         sayhello()
@@ -27,7 +27,7 @@ Description: # Hello World
         
         # Developing Hello World
         
-        To install helloworld, along with the tools you need to develope and run tests, run the following in your virtualenv:
+        To install helloNoushi, along with the tools you need to develope and run tests, run the following in your virtualenv:
         ```bash
         $ pip install -e .[dev]
         ``` 

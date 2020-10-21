@@ -4,12 +4,12 @@ A SIMPLE FILE TO DESCRIBE THE PROJECT PACKAGING IN PYTHON - and a program t simp
 ## Installation 
 Run the following to install:
 ```python
-pip install helloworld
+pip install helloNoushi
 ```
 
 ## Usage
 ```python
-from helloworld import sayhello
+from helloNoushi import sayhello
 ``` 
 # Generate "Hello Lovely World ...!!!"
 sayhello()
@@ -19,7 +19,7 @@ sayhello('guys')
 
 # Developing Hello World
 
-To install helloworld, along with the tools you need to develope and run tests, run the following in your virtualenv:
+To install helloNoushi, along with the tools you need to develope and run tests, run the following in your virtualenv:
 ```bash
 $ pip install -e .[dev]
 ``` 

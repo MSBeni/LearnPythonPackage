@@ -1,4 +1,4 @@
-from helloworld import sayhello
+from helloNoushi import sayhello
 
 def test_helloworld_no_param():
     assert sayhello() == "Hello Lovely World ...!!!"

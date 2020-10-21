@@ -19,21 +19,21 @@ classifiers = [
           ]
 
 
-setup(name='helloworld',
+setup(name='helloNoushi',
       version='0.0.1',
       description='say hello',
-      py_modules=["helloworld"],
-      package_dir={'': 'src'},
+      py_modules=["helloNoushi"],
+      # package_dir={'': 'src'},
       long_description=long_description,
       long_description_content_type="text/markdown",
       author='MSBeni',
       author_email='andrei.sokurov.bitco@gmail.com',
-      License='MIT',
+      # License='MIT',
       classifiers=classifiers,
       keywords='calculator',
-      url='',
+      url='https://github.com/MSBeni/LearnPythonPackage',
       packages=find_packages(),
-      install_requiers=[''],
+      # install_requiers=[''],
       extras_require={
           "dev": [
               "pytest>=3.7",

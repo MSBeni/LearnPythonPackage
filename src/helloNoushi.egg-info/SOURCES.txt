@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/helloNoushi.py
+src/helloNoushi.egg-info/PKG-INFO
+src/helloNoushi.egg-info/SOURCES.txt
+src/helloNoushi.egg-info/dependency_links.txt
+src/helloNoushi.egg-info/requires.txt
+src/helloNoushi.egg-info/top_level.txt
