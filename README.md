@@ -1,0 +1,1 @@
+A SIMPLE FILE TO DESCRIBE THE PROJECT PACKAGING IN PYTHON - and a program t simply say hello
