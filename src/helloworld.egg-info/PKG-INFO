@@ -1,4 +1,4 @@
-Metadata-Version: 1.1
+Metadata-Version: 2.1
 Name: helloworld
 Version: 0.0.1
 Summary: say hello
@@ -6,7 +6,31 @@ Home-page: UNKNOWN
 Author: MSBeni
 Author-email: andrei.sokurov.bitco@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: # Hello World
+        A SIMPLE FILE TO DESCRIBE THE PROJECT PACKAGING IN PYTHON - and a program t simply say hello
+        
+        ## Installation 
+        Run the following to install:
+        ```python
+        pip install helloworld
+        ```
+        
+        ## Usage
+        ```python
+        from helloworld import sayhello
+        ``` 
+        # Generate "Hello Lovely World ...!!!"
+        sayhello()
+        
+        # Generate "Hello Lovely guys ...!!!"
+        sayhello('guys')
+        
+        # Developing Hello World
+        
+        To install helloworld, along with the tools you need to develope and run tests, run the following in your virtualenv:
+        ```bash
+        $ pip install -e .[dev]
+        ``` 
 Keywords: calculator
 Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable
@@ -21,3 +45,5 @@ Classifier: Programming Language :: Python :: 3
 Classifier: Topic :: Communications :: Email
 Classifier: Topic :: Office/Business
 Classifier: Topic :: Software Development :: Bug Tracking
+Description-Content-Type: text/markdown
+Provides-Extra: dev

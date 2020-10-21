@@ -17,3 +17,9 @@ sayhello()
 # Generate "Hello Lovely guys ...!!!"
 sayhello('guys')
 
+# Developing Hello World
+
+To install helloworld, along with the tools you need to develope and run tests, run the following in your virtualenv:
+```bash
+$ pip install -e .[dev]
+``` 

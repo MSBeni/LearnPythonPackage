@@ -33,5 +33,11 @@ setup(name='helloworld',
       keywords='calculator',
       url='',
       packages=find_packages(),
-      install_requiers=['']
+      install_requiers=[''],
+      extras_require={
+          "dev": [
+              "pytest>=3.7",
+          ],
+      }
      )
+
