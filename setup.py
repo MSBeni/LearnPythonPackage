@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 classifiers = [
           'Development Status :: 5 - Production/Stable',
           'Environment :: Console',
@@ -21,7 +24,8 @@ setup(name='helloworld',
       description='say hello',
       py_modules=["helloworld"],
       package_dir={'': 'src'},
-      Long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+      long_description=long_description,
+      long_description_content_type="text/markdown",
       author='MSBeni',
       author_email='andrei.sokurov.bitco@gmail.com',
       License='MIT',
