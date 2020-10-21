@@ -1,1 +1,5 @@
-global include *.txt and *.py
+include *.in
+include *.txt
+recursive-include build *.py
+recursive-include dist *.whl
+recursive-include src *.py
