@@ -1,4 +1,4 @@
-# This is a simple repository in order to learn how you can simply build a python package. 
+# This is a simple repository in order to teach a user how he/she can simply build a python package. 
 
 # Hello World
 A SIMPLE FILE TO DESCRIBE THE PROJECT PACKAGING IN PYTHON - and a program t simply say hello
